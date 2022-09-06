@@ -1,0 +1,31 @@
+/* ////selectors: name #id .class ///// */
+body {
+  margin: 0;
+}
+
+header {
+  /* background-color: dodgerblue ; */
+  /* height: 150px; */
+  color: white;
+}
+#top-header {
+  background-color: black;
+  height: 70px;
+}
+.top-header-child{
+    display: inline-block;
+}
+
+#bottom-header {
+  background-color: rgba(0, 0, 0, 0.631);
+  height: 60px;
+}
+
+main {
+  background-color: aqua;
+  height: 800px;
+}
+footer {
+  background-color: gray;
+  height: 200px;
+}

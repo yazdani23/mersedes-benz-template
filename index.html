@@ -3,41 +3,30 @@
 
     <head>
         <title>Mercedes Benz</title>
-        <style>
-            body{
-                margin: 0;
-            }
-
-            header{
-                /* background-color: dodgerblue ; */
-                /* height: 150px; */
-            }
-            #top-header{
-                background-color: black;
-                height:70px;
-            }
-            #bottom-header{
-                background-color: rgba(0, 0, 0, 0.631);
-                height: 60px;
-            }
-
-
-            main{
-                background-color: aqua;
-                height: 800px;
-            }
-            footer{
-                background-color:gray ;
-                height: 200px;
-            }
-        </style>
-
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
 
         <header>
-            <div id="top-header"></div>
+            <div id="top-header">
+
+                <div id="left-top-header" class="top-header-child">
+                    <span>Deutsch | English</span>
+                    <span>Provider/Privacy</span>
+                </div>
+                
+                <div id="middle-top-header" class="top-header-child">
+                    <img src="https://www.mercedes-benz.com/content/dam/brandhub/global/logos/MB-star_n_web.svg" alt="">
+                </div>
+
+                <div id="right-top-header" class="top-header-child">
+                    <span>Search</span>
+                    <span>Login</span>
+                </div>
+
+            </div>
+
             <div id="bottom-header"></div>
         </header>
 
@@ -47,7 +36,3 @@
     </body>
 
 </html>
-
-
-
-
